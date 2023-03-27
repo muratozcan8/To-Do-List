@@ -62,7 +62,6 @@ class SecondFragment : Fragment() {
 
                 binding.taskNameText.setText(name)
                 binding.notesText.setText(notes)
-                println(it.getString("dueDate"))
 
                 binding.taskNameText.keyListener = null
                 binding.notesText.keyListener = null
