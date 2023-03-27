@@ -1,7 +1,7 @@
 # To-Do-List
-Data Binding
-Recycler View
-Room Database
-RxJava
-Fragment
-Navigation
+-Data Binding
+-Recycler View
+-Room Database
+-RxJava
+-Fragment
+-Navigation
