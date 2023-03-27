@@ -115,7 +115,6 @@ class ListAdapter(
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribeWith(object : DisposableObserver<String>(), CompletableObserver {
                         override fun onComplete() {
-                            println("completed")
                             holder.itemView.findNavController().navigate(R.id.FirstFragment)
                         }
                         override fun onError(e: Throwable) {
@@ -133,7 +132,6 @@ class ListAdapter(
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribeWith(object : DisposableObserver<String>(), CompletableObserver {
                             override fun onComplete() {
-                                println("completed")
                                 holder.itemView.findNavController().navigate(R.id.FirstFragment)
                             }
                             override fun onError(e: Throwable) {
