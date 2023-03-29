@@ -1,5 +1,5 @@
 # To-Do-List
--Data Binding
+-View Binding
 -Recycler View
 -Room Database
 -RxJava
